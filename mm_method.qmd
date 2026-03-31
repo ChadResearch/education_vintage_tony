@@ -1,0 +1,61 @@
+# Method {.unnumbered}
+
+## Econometric Model
+
+### Main Specification (Triple DiD)
+
+```
+GenAI_Adoption_{it} = beta_0
+                    + beta_1 * Post_ChatGPT_t
+                    + beta_2 * TechBoard_i
+                    + beta_3 * (Post x TechBoard)
+                    + beta_4 * (Post x TechBoard x Vintage_i)
+                    + gamma * Controls_{it}
+                    + alpha_i    (firm fixed effects)
+                    + delta_t    (time fixed effects)
+                    + epsilon_{it}
+```
+
+**Key coefficient**: `beta_4` captures whether education vintage moderates the effect of board technical competence on GenAI adoption in the post-ChatGPT period.
+
+### Hypothesis-Specific Models
+
+**H1 (Vintage -> Adoption Speed)**:
+```
+AI_Adoption_Speed_{it} = ... + beta * TKL_{it} + ...
+```
+Where TKL = Tech Knowledge Latency (Current Year - STEM Degree Year)
+
+**H2 (Tech Committee Vintage)**:
+```
+GenAI_Adoption_{it} = ... + beta_1 * TechCommittee_i
+                          + beta_2 * (TechCommittee x OldVintage_i) + ...
+```
+
+**H3 (Vintage Faultlines)**:
+```
+GenAI_Adoption_{it} = ... + beta * Vintage_Variance_{it} + ...
+```
+
+**H4 (Reskilling Mitigation)**:
+```
+GenAI_Adoption_{it} = ... + beta_1 * OldVintage_i
+                          + beta_2 * (OldVintage x ReskillingIndex_i) + ...
+```
+
+## Supplementary Analyses
+
+| Analysis | Method | Purpose |
+|----------|--------|---------|
+| Event Study | Quarterly coefficient plot | Verify parallel trends assumption |
+| Heterogeneity | Subgroup DiD | Industry (tech vs. non-tech), firm size effects |
+| Instrumental Variable | 2SLS with birth year | Address endogeneity of vintage |
+| Robustness | Varying cutoffs | Sensitivity to vintage classification (2010, 2012, 2015) |
+| Mediation | Baron-Kenny / Causal Mediation | Board decision process as mediator |
+| Placebo | Alternative tech DiD | Cloud/blockchain should show no vintage effect |
+
+## Software and Tools
+
+- **Statistical software**: Stata / R
+- **Text analysis**: Python (for 10-K keyword extraction)
+- **Visualization**: R (ggplot2) / Stata

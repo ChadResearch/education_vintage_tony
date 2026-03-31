@@ -1,0 +1,40 @@
+# Reference List {.unnumbered}
+Category, Classification and Decision Note for Selected Literature in Rounds
+
+## Round 1: Board Composition & AI
+
+| # | Reference | Category | Decision | Note |
+|---|-----------|----------|----------|------|
+| 1 | Hoppmann, Naegele, & Girod (2019). Boards as a source of inertia. *AMJ* | Board Inertia | **Include (A)** | Core reference: boards can resist change during discontinuities |
+| 2 | Montagnani & Passador (2020). AI for Companies: Tech Committees in EU and US | Tech Committee | **Include (A)** | Empirical analysis of tech committee presence and AI |
+| 3 | Ma (2025). Technological obsolescence. *Review of Financial Studies* | Obsolescence | **Include (A)** | Recent finance perspective on technological obsolescence |
+
+## Round 2: Knowledge Obsolescence
+
+| # | Reference | Category | Decision | Note |
+|---|-----------|----------|----------|------|
+| 1 | Boone, Ganeshan, & Hicks (2008). Learning and knowledge depreciation. *Management Science* | Knowledge Depreciation | **Include (A)** | Foundational: knowledge depreciation in professional services |
+| 2 | Shearer & Steger (1975). Manpower obsolescence. *AMJ* | Skill Obsolescence | **Include (B)** | Classic: half-life of engineering knowledge |
+| 3 | Goldin (2014). A grand gender convergence. *AER* | Education Returns | **Include (C)** | Vintage of education affects wages and productivity |
+
+## Round 3: Board Expertise & Innovation
+
+| # | Reference | Category | Decision | Note |
+|---|-----------|----------|----------|------|
+| 1 | Anderson & Tushman (1990). Technological discontinuities. *ASQ* | Tech Discontinuity | **Include (A)** | Foundational: competence-enhancing vs. destroying |
+| 2 | Anderson & Tushman (2018). Technological discontinuities (reprint). *Routledge* | Tech Discontinuity | **Include (A)** | Updated version of the cyclical model |
+| 3 | Lavie (2006). Capability reconfiguration. *AMR* | Dynamic Capabilities | **Include (B)** | Incumbent responses to technological change |
+| 4 | Kunze & Bruch (2010). Age-based faultlines. *Small Group Research* | Faultlines | **Include (B)** | Age-based cognitive faultlines in teams |
+| 5 | Mundlamuri et al. (2025). Evolution of AI. *IEEE Access* | AI History | **Include (C)** | AI eras classification for vintage categorization |
+
+## Additional (during and after writing)
+
+| # | Reference | Category | Decision | Note |
+|---|-----------|----------|----------|------|
+| | Hambrick & Mason (1984). Upper Echelons. *AMR* | Upper Echelons | **Include (B)** | Cognitive imprinting from educational backgrounds |
+| | Cohen & Levinthal (1990). Absorptive Capacity. *ASQ* | Absorptive Capacity | **Include (B)** | Prior knowledge affects new knowledge absorption |
+| | Teece (2007). Dynamic Capabilities. *Strategic Management Journal* | Dynamic Capabilities | **Include (C)** | Sensing-Seizing-Transforming framework |
+| | DiMaggio & Powell (1983). Institutional Isomorphism. *ASR* | Institutional Theory | **Include (C)** | Decoupling: form vs. substance in governance |
+| | Levitt & March (1988). Organizational Learning. *Annual Review of Sociology* | Competence Trap | **Include (C)** | Exploitation vs. exploration trade-off |
+
+**Classification Key**: A = Directly relevant to core argument, B = Supports theoretical framework, C = Provides background context

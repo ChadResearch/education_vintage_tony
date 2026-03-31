@@ -1,0 +1,63 @@
+# Theoretical Relationship {.unnumbered}
+
+## How the Theories Connect
+
+The theoretical framework integrates multiple streams into a coherent causal model centered on the **Education Vintage** construct.
+
+## Theoretical Integration Map
+
+```
+                    Upper Echelons Theory
+                    (Cognitive Imprint Formation)
+                          |
+                          v
+    Human Capital Theory -----> Education Vintage (Core Construct)
+    (Knowledge Depreciation)              |
+                                          |
+          +-------------------------------+-------------------------------+
+          |                               |                               |
+          v                               v                               v
+   Absorptive Capacity            RDT + Dynamic                 Institutional Theory
+   (Reduced Knowledge             Capabilities                  (Decoupling/
+    Absorption)                  (Resource Fossilization)        Ceremonial Response)
+          |                               |                               |
+          v                               v                               v
+   Negative Transfer              Competence Trap               Tech Committee
+   (Old Knowledge Interferes)     (Success Trap)                Ineffectiveness (H2)
+          |                               |
+          v                       +-------+-------+
+      H1: Vintage Affects         |               |
+      Adoption Speed              v               v
+                           H3: Cognitive      H4: Reskilling
+                           Faultlines         Offsets Depreciation
+```
+
+## Theory-to-Hypothesis Mapping
+
+| Hypothesis | Primary Theory | Supporting Theories |
+|-----------|----------------|---------------------|
+| **H1**: Recent vintage -> faster AI adoption | Human Capital Theory (Vintage Effect) | Absorptive Capacity, Negative Transfer, Upper Echelons |
+| **H2**: Old vintage Tech Committee -> negative/null effect | RDT (Resource Fossilization) | Institutional Theory (Decoupling), Competence Trap |
+| **H3**: High vintage variance -> slower adoption | Cognitive Faultlines | Upper Echelons, Dynamic Capabilities |
+| **H4**: Reskilling mitigates old vintage | Human Capital Theory (Reinvestment) | Absorptive Capacity, Dynamic Capabilities |
+
+## Causal Mechanism
+
+1. **Formation**: Education vintage creates cognitive imprints during formative years (Upper Echelons)
+2. **Depreciation**: Technical knowledge decays rapidly in high-tech fields (Human Capital Theory)
+3. **Shock**: GenAI arrives as a competence-destroying discontinuity (Anderson & Tushman)
+4. **Differential Response**: Directors respond based on their vintage:
+   - **Recent vintage**: High absorptive capacity, cognitive alignment with probabilistic AI -> faster adoption
+   - **Old vintage**: Low absorptive capacity, negative transfer, competence trap -> resistance or misguided governance
+   - **Mixed vintage**: Cognitive faultlines create communication breakdown -> delayed consensus
+5. **Mitigation**: Reskilling refreshes vintage capital, restoring absorptive capacity
+
+## From "Possessed Knowledge" to "Effective Knowledge"
+
+Traditional governance research operates on the premise of **Possessed Knowledge**: once a director acquires a credential, they permanently possess the associated utility.
+
+This study proposes a shift to **Effective Knowledge**: accounting for the temporal erosion of relevance.
+
+> Effective Knowledge = Possessed Knowledge x Vintage Alignment Factor
+>
+> Where Vintage Alignment = f(graduation year, current technological regime, reskilling investment)

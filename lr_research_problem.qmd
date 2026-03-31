@@ -1,0 +1,27 @@
+# Research Problems {.unnumbered}
+
+## The Core Paradox
+
+The integration of artificial intelligence (AI) into the strategic core of the modern enterprise represents a pivotal juncture in corporate history. The emergence of Generative AI (GenAI), catalyzed by the public release of ChatGPT in November 2022, has created a **competence-destroying technological discontinuity** (Anderson & Tushman, 2018).
+
+While boards of directors are increasingly populated with individuals possessing technical backgrounds, many firms remain sluggish, misguided, or defensively reactive in their adoption of transformative AI technologies. The prevailing frameworks for assessing board competence rely on **static indicators** (e.g., STEM degree possession, Technology Committee existence). These binary metrics implicitly assume that knowledge is a durable asset with a negligible depreciation rate.
+
+## Central Research Question
+
+> **Does the vintage of directors' technical education moderate the relationship between board technical competence and the firm's adoption of Generative AI?**
+
+## Sub-Questions
+
+1. **Latency**: Does a shorter time-since-graduation for technical directors predict faster AI adoption?
+2. **Cognitive Faultlines**: How does the variance in education vintage (the gap between the "Old Guard" and "AI Natives") affect strategic consensus?
+3. **Reskilling**: Can continuous education (lifelong learning) mitigate the effects of knowledge depreciation?
+
+## Theoretical Gap
+
+The corporate governance literature fails to account for **Knowledge Obsolescence** in technical domains. While labor economics has long recognized that the vintage of education affects wages and productivity (Goldin, 2014), governance research has largely ignored this dimension, treating a 40-year-old engineering degree as equivalent to a fresh doctorate.
+
+This oversight is critical: stale knowledge does not merely fail to help; it may **actively hinder**. Directors entrenched in obsolete technical paradigms (deterministic, rule-based computing) could view the probabilistic, unstructured nature of GenAI as a risk to be contained rather than a capability to be unleashed (Lavie, 2006).
+
+## Key Construct: Education Vintage
+
+Technical knowledge is not a **stock variable** but a **flow** subject to rapid radioactive decay. A director who obtained a Computer Science degree in 1985 (mainframe computing, symbolic AI) possesses a cognitive framework fundamentally distinct from one who graduated in 2020 (deep learning, transformer models, neural networks). Although both are classified as "technically competent" by traditional measures, the **vintage** of their education dictates the relevance, utility, and validity of their human capital in the face of the GenAI shock.

@@ -1,0 +1,57 @@
+# Theoretical Framework {.unnumbered}
+
+## Overview
+
+This study integrates three distinct theoretical streams to unpack the relationship between education vintage and AI governance:
+
+1. **Resource Dependence Theory (RDT)** -- Dynamic View
+2. **Economics of Human Capital** -- Obsolescence
+3. **Theory of Technological Discontinuities**
+
+## 1. Reframing Resource Dependence Theory: The Decay of Board Capital
+
+Resource Dependence Theory (RDT) asserts that organizations must interact with their environment to acquire resources. Boards are the primary mechanism for managing these external dependencies (Hoppmann et al., 2019). In high-tech industries, the most critical resource is information processing capability and technical foresight.
+
+**Limitation of Standard RDT**: Board capital is treated as static. A director appointed for their technical expertise is assumed to deliver that resource continuously throughout their tenure.
+
+**Extension -- Resource Fossilization**: The phenomenon where a strategic resource degrades into a liability due to environmental shifts. When a technological paradigm shifts (e.g., from on-premise to cloud, from analytical AI to generative AI), the "resource" provided by a director trained in the old paradigm loses its strategic value.
+
+> RDT must be extended to include a **temporal validity constraint**: The provision of technical resources is contingent on the alignment between the vintage of the resource and the current technological regime.
+
+## 2. Human Capital Obsolescence and the "Vintage Effect"
+
+Becker's human capital theory views education as an investment with a rate of return. However, this capital depreciates. The depreciation rate in high-technology fields is significantly higher than in law, finance, or management (Boone et al., 2008).
+
+- **Half-life of engineering knowledge**: 2.5 to 5 years (Shearer & Steger, 1975)
+- **Cognitive imprinting**: Executives' cognitive bases are formed by their educational backgrounds and are resistant to change (Upper Echelons Theory)
+- **Negative transfer**: A director trained in control and determinism will struggle with the probabilistic and emergent nature of GenAI
+
+## 3. Technological Discontinuities: Competence-Destroying Change
+
+The distinction between competence-enhancing and competence-destroying discontinuities (Anderson & Tushman, 1990, 2018):
+
+| Type | Description | Director Impact |
+|------|-------------|-----------------|
+| **Competence-Enhancing** | Innovations building upon existing know-how | Experienced directors thrive |
+| **Competence-Destroying** | Innovations rendering existing skills obsolete | Experienced directors may hinder |
+
+GenAI acts as a **competence-destroying discontinuity** for traditional IT governance:
+
+- Previous IT eras: process automation, structured data, logical determinism
+- GenAI era: content creation, unstructured data, probabilistic outcomes
+
+**Competence Trap**: Directors with obsolete expertise may actively resist new technology -- not out of ignorance, but out of the belief that their methods remain superior.
+
+## Hypothesis
+
+### H1: Education Vintage and AI Adoption Speed
+In the post-ChatGPT period, the positive relationship between board technical competence and firm AI adoption speed is significantly stronger for firms whose technical directors have **more recent educational vintages** (lower Tech Knowledge Latency).
+
+### H2: Technology Committee Vintage Effect
+The presence of a Technology Committee will have a **negative or insignificant effect** on GenAI adoption if the average Education Vintage of its members predates the modern AI era (pre-2012).
+
+### H3: Cognitive Vintage Faultlines
+Boards with **high variance** in technical education vintage will exhibit **slower AI adoption** compared to boards with low variance.
+
+### H4: Reskilling Mitigation
+The negative effect of Old Vintage is **mitigated** by the Reskilling Index (frequency of technical certifications or degrees obtained after age 45).

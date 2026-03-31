@@ -1,0 +1,73 @@
+# Procedures {.unnumbered}
+
+## Research Workflow
+
+### Phase 1: Literature Review (4 weeks)
+
+1. Systematic search across Web of Science, Scopus, SSRN, NBER
+2. Three rounds of keyword-based searches (see `lr_search_incl_excl.qmd`)
+3. PRISMA-compliant screening and selection
+4. Literature classification (A/B/C grades)
+5. Conceptual model refinement based on literature gaps
+
+### Phase 2: Data Collection & Variable Construction (6 weeks)
+
+1. **Week 1-2**: Extract BoardEx education data
+   - Download director-level data with education fields
+   - Identify STEM-classified qualifications
+   - Extract AwardDate for vintage calculation
+2. **Week 2-3**: Classify STEM vs. non-STEM qualifications
+   - Create classification dictionary
+   - Manual validation of ambiguous cases
+   - Compute TKL for each STEM director
+3. **Week 3-4**: Download and parse 10-K filings
+   - Bulk download from SEC EDGAR (XBRL full-text)
+   - Extract relevant text sections (MD&A, Risk Factors, Business Description)
+4. **Week 4-5**: Run GenAI keyword extraction
+   - Apply validated keyword dictionary
+   - Compute TF-IDF weighted scores
+   - Calculate AI Adoption Speed (quarters to first mention)
+5. **Week 5-6**: Merge and validate
+   - Link BoardEx -> Compustat -> CRSP -> EDGAR via CIK/GVKEY
+   - Handle missing data (imputation for AwardDate)
+   - Construct panel dataset (firm-quarter)
+   - Winsorize outliers (1st/99th percentile)
+
+### Phase 3: Empirical Analysis (4 weeks)
+
+1. **Week 1**: Descriptive statistics and correlations
+   - Sample composition by vintage category
+   - Industry distribution
+   - Temporal trends in GenAI adoption
+2. **Week 2**: Main DiD estimation
+   - Triple DiD model (H1)
+   - Tech Committee interaction (H2)
+   - Vintage faultline analysis (H3)
+   - Reskilling moderation (H4)
+3. **Week 3**: Robustness and supplementary analyses
+   - Event study (parallel trends verification)
+   - IV estimation (birth year instrument)
+   - Placebo tests (non-GenAI technologies)
+   - Alternative vintage cutoffs (2010, 2012, 2015)
+   - Heterogeneity by industry and firm size
+4. **Week 4**: Results compilation
+   - Tables and figures
+   - Sensitivity analysis summary
+   - Effect size interpretation
+
+### Phase 4: Writing & Submission (4 weeks)
+
+1. **Week 1**: Draft Introduction, Theory, Hypotheses
+2. **Week 2**: Draft Method, Results
+3. **Week 3**: Draft Discussion, Conclusion
+4. **Week 4**: Internal review, revision, journal formatting
+
+## Quality Checkpoints
+
+| Checkpoint | Criteria | Phase |
+|-----------|----------|-------|
+| Literature saturation | No new themes emerging in final round | Phase 1 |
+| Data validation | <5% imputation rate for AwardDate | Phase 2 |
+| Parallel trends | Non-significant pre-treatment coefficients | Phase 3 |
+| Robustness | Results stable across alternative specifications | Phase 3 |
+| Internal review | Co-author sign-off on all sections | Phase 4 |

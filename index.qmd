@@ -1,0 +1,17 @@
+# Education Vintage and Knowledge Depreciation: Board Technical Competency in the Era of Generative AI {.unnumbered}
+
+## Project Details
+
+| Item | Value |
+|------|-------|
+| Owner | Tony, Jongcnaglu |
+| Type | Research |
+| Status | 초기화 |
+| Created | 2026-03-29 |
+| Collaboration | collaboration |
+| People | 채충일 |
+| Deadline | 2026-05-30 |
+
+## Description
+
+The integration of artificial intelligence (AI) into the strategic core of the modern enterprise represents a pivotal juncture in corporate history, comparable to the advent of the internet or the electrification of industry. Specifically, the emergence of Generative AI (GenAI), catalyzed by the public release of ChatGPT in November 2022, has created a competence-destroying technological discontinuity (Anderson & Tushman, 2018). Unlike incremental technological advances that reward accumulated experience and existing institutional knowledge, competence-destroying discontinuities render vast swaths of prior expertise obsolete. In this volatile environment, the board of directors serves as the ultimate steward of organizational adaptation, tasked with navigating the firm through the gale of creative destruction (Ma, 2025).

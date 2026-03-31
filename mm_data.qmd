@@ -1,0 +1,58 @@
+# Data {.unnumbered}
+
+## Sample Description
+
+- **Population**: U.S. publicly listed firms in the BoardEx universe
+- **Time period**: 2019 Q1 -- 2025 Q4 (28 quarters)
+- **Treatment event**: ChatGPT release, November 30, 2022 (2022 Q4)
+- **Expected sample size**: ~3,000-5,000 firms, ~50,000+ firm-quarter observations
+
+## Inclusion Criteria
+
+1. Listed on NYSE, NASDAQ, or AMEX
+2. At least one director with a STEM-classified degree in BoardEx
+3. Financial data available in Compustat for the study period
+4. At least one 10-K filing available in SEC EDGAR post-2022
+
+## Exclusion Criteria
+
+1. Financial firms (SIC 6000-6999) -- different regulatory environment
+2. Utility firms (SIC 4900-4999) -- regulated industry dynamics
+3. Firms with fewer than 3 board members in BoardEx
+4. Firms with missing key financial variables (total assets, revenue)
+
+## STEM Classification
+
+Degrees classified as STEM based on BoardEx Subject field:
+
+| STEM | Non-STEM |
+|------|----------|
+| Computer Science, Engineering, Mathematics, Physics, Statistics, Information Technology, Data Science, Artificial Intelligence, Electrical Engineering, Mechanical Engineering, Chemical Engineering, Bioinformatics | Law, Finance, Accounting, MBA (general), Economics, Political Science, History, English, Philosophy, Marketing |
+
+## Key Data Fields from BoardEx
+
+| Field | Description | Use |
+|-------|-------------|-----|
+| `DirectorID` | Unique director identifier | Linking |
+| `CompanyID` | Unique company identifier | Linking |
+| `Qualification` | Degree name (BS, MS, PhD, etc.) | STEM classification |
+| `QualSubject` | Field of study | STEM classification |
+| `AwardDate` | Degree conferral date | Vintage calculation |
+| `DOB` | Date of birth | Imputation, age controls |
+| `CommitteeName` | Board committee assignments | Tech Committee identification |
+| `RoleStartDate` | Director appointment date | Tenure calculation |
+
+## Descriptive Statistics (Expected)
+
+*To be populated after data collection*
+
+| Variable | N | Mean | SD | Min | Max |
+|----------|---|------|-----|-----|-----|
+| TKL (years) | | | | | |
+| GenAI Adoption Score | | | | | |
+| AI Adoption Speed (quarters) | | | | | |
+| Vintage Faultline (variance) | | | | | |
+| Reskilling Index | | | | | |
+| Board Size | | | | | |
+| Firm Size (log assets) | | | | | |
+| R&D Intensity | | | | | |

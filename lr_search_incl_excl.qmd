@@ -1,0 +1,97 @@
+# Searching and Inclusion & Exclusion {.unnumbered}
+
+# Round 1
+## Search keywords and category
+
+**Category**: Board Composition and AI/Digital Transformation
+
+**Keywords**:
+- Board: "board of directors," "corporate governance," "board composition," "board expertise"
+- AI: "AI adoption," "artificial intelligence adoption," "digital transformation," "generative AI," "GenAI," "ChatGPT"
+
+## Keywords combination
+
+```
+("board of directors" OR "corporate governance" OR "board composition")
+AND
+("AI adoption" OR "digital transformation" OR "generative AI" OR "ChatGPT")
+```
+
+**Databases**: Web of Science, Scopus, SSRN
+**Expected results**: 200-400 articles
+**Inclusion**: Empirical studies on board-level factors affecting technology/AI adoption
+**Exclusion**: Non-board-level analysis, purely technical AI papers, conference proceedings without peer review
+
+# Round 2
+## Search keywords and category
+
+**Category**: Knowledge Obsolescence and Human Capital Depreciation
+
+**Keywords**:
+- Knowledge: "knowledge obsolescence," "human capital depreciation," "knowledge depreciation," "education vintage," "skill obsolescence"
+- Domain: "technology," "STEM," "engineering," "technical expertise," "high-tech"
+
+## Keywords combination
+
+```
+("knowledge obsolescence" OR "human capital depreciation" OR "education vintage"
+ OR "skill obsolescence" OR "knowledge decay")
+AND
+("technology" OR "STEM" OR "engineering" OR "technical" OR "high-tech")
+```
+
+**Databases**: Web of Science, Scopus, NBER Working Papers
+**Expected results**: 100-200 articles
+**Inclusion**: Studies measuring temporal dimension of knowledge/skill value
+**Exclusion**: General education returns without temporal analysis, non-technical domains
+
+# Round 3
+## Search keywords and category
+
+**Category**: Board Technical Expertise and Innovation
+
+**Keywords**:
+- Board: "tech committee," "technology committee," "director expertise," "board human capital," "STEM directors"
+- Innovation: "innovation," "technology adoption," "R&D," "technological change," "disruptive technology"
+
+## Keywords combination
+
+```
+("tech committee" OR "technology committee" OR "director expertise"
+ OR "board human capital" OR "STEM director*")
+AND
+("innovation" OR "technology adoption" OR "R&D" OR "disruptive technology")
+```
+
+**Databases**: Web of Science, Scopus, SSRN
+**Expected results**: 150-300 articles
+**Inclusion**: Empirical studies linking board-level technical expertise to firm innovation outcomes
+**Exclusion**: CEO-only studies (unless board-level analysis included), theoretical-only papers
+
+# Additional Keywords (during writing)
+
+```
+("cognitive faultlines" OR "age diversity" OR "generational diversity")
+AND
+("top management team" OR "board" OR "executive" OR "TMT")
+```
+
+# PRISMA
+
+*PRISMA flow diagram to be completed after systematic search*
+
+| Stage | Round 1 | Round 2 | Round 3 | Total |
+|-------|---------|---------|---------|-------|
+| Identified | | | | |
+| Screened (title/abstract) | | | | |
+| Full-text assessed | | | | |
+| Included | | | | |
+| Excluded (with reasons) | | | | |
+
+**Exclusion reasons to track**:
+1. Not board-level analysis
+2. No temporal/vintage dimension
+3. No empirical component
+4. Duplicate across databases
+5. Not in English
+6. Conference proceedings only (no journal version)
